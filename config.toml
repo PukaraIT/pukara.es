@@ -1,0 +1,22 @@
+baseURL = "https://pukara.es/"
+DefaultContentLanguage = "es"
+title = "Pukara"
+
+[Languages.es]
+languageName = "Es"
+weight = 1
+title = "Pukara Es"
+contentDir = "content/es"
+
+[Languages.en]
+languageName = "En"
+weight = 2
+title = "Pukara En"
+contentDir = "content/en"
+
+[Languages.br]
+languageName = "Br"
+weight = 3
+title = "Pukara En"
+contentDir = "content/br"
+
