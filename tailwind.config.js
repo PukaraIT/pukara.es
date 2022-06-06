@@ -19,7 +19,8 @@ module.exports = {
         pukara: {
           main: '#F3D02B',
           primary: '#E38718',
-          second: '#1D2426'
+          second: '#1D2426',
+          video: '#27262E'
         }
       }
     },
