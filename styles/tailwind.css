@@ -7,7 +7,7 @@
 }
 
 /*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -522,8 +522,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-color: rgb(243 208 43 / var(--tw-border-opacity));
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .relative{
   position: relative;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mx-auto{
@@ -534,11 +543,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .my-2{
@@ -581,10 +585,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex{
   display: flex;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .h-52{
@@ -676,6 +676,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(29 36 38 / var(--tw-bg-opacity));
 }
 
+.bg-pukara-video{
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 38 46 / var(--tw-bg-opacity));
+}
+
 .bg-hero{
   background-image: url('../images/bg-hero.png');
 }
@@ -702,10 +707,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-2{
   padding: 0.5rem;
-}
-
-.p-8{
-  padding: 2rem;
 }
 
 .px-8{
@@ -919,6 +920,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 1.5rem;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
   .md\:w-\[800px\]{
     width: 800px;
   }
@@ -937,10 +942,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[1100px\]{
     width: 1100px;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
   }
 
   .md\:w-auto{
@@ -981,6 +982,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:gap-24{
     gap: 6rem;
+  }
+
+  .md\:p-8{
+    padding: 2rem;
   }
 
   .md\:px-0{

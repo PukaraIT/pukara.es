@@ -48,3 +48,9 @@ while (i < slider.length) {
 i = 0;
 
 interval = setInterval(panelShow, 5000);
+
+let video = document.querySelector('#puk-video');
+
+window.addEventListener('load',() => {
+  video.classList.toggle('invisible');
+});
