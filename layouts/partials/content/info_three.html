@@ -1,6 +1,6 @@
 <div class="relative w-full font-mulish overflow-hidden my-8">
-  <form id="form">
-    <p class="text-3xl md:text-4xl text-center font-extrabold my-4">CONTACTANOS</p>
+  <form id="form" action="https://getform.io/f/8f1a51cc-33d8-4d63-b3d7-14dd95fe572c" >
+    <p class="text-3xl md:text-4xl text-center font-extrabold my-4">CONTACTO</p>
 
     <div class="w-full md:w-[900px] mx-auto flex flex-col">
       <div class="w-full flex flex-col md:flex-row p-2">
@@ -17,8 +17,30 @@
 
       <label class="w-full p-4" for="message">
         <p class="text-xl md:text-2xl">Mensaje*</p>
-        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border" placeholder="Tu mensaje."></textarea>  
+        <textarea form ="form" name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border" placeholder="Tu mensaje."></textarea>  
       </label>
+    </div>
+
+    <div class="suscribe">
+      <p>Suscribirse?</p>
+      <label><input type="checkbox" id="cb1" name="subscribe" value="yes" class="cgroup" checked> Si </label>
+      <label><input type="checkbox" id="cb2" name="subscribe" value="no" class="cgroup"> No </label>
+    </div>
+
+    <div class="radio">
+      <p>Genero: </p>
+      <label><input type="radio" id="huey" name="gender" value="male" checked>Hombre</label>
+      <label><input type="radio" id="huey" name="gender" value="female">Mujer</label>
+      <label><input type="radio" id="huey" name="gender" value="other">Otros</label>
+    </div>
+
+    <div class="workExperience">
+      <p>Experiencia laboral:</p>
+      <select name="work-experience">
+        <option value="one-year">0-1 years</option>
+        <option value="one-five-years">1-5 years</option>
+        <option value="five-plus-years">5+ years</option>
+      </select>
     </div>
 
     <button type="button" class="button my-0 md:my-8">ENVIAR</button>

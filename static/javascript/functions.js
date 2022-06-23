@@ -51,6 +51,17 @@ interval = setInterval(panelShow, 5000);
 
 let video = document.querySelector('#puk-video');
 
-window.addEventListener('load',() => {
+window.addEventListener('load',(e) => {
   video.classList.toggle('invisible');
 });
+
+document.querySelectorAll(".cgroup").forEach((chbx)=>{
+  chbx.addEventListener("change",(e)=>{
+      if(!e.target.checked) return;
+      var checkedbox = Array.from(document.querySelectorAll(".cgroup")).find(chbx=>chbx!=e.target&&chbx.checked)
+      if(checkedbox){
+          e.target.checked = false
+          message()
+      }
+  })
+})
