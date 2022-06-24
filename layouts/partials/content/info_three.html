@@ -1,26 +1,73 @@
+<script src="/javascript/validationsForm.js" defer> </script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt"></script>
+<script defer>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt', {action: 'login'}).then(function(token) {
+    });
+});
+</script>
+
+
+
 <div class="relative w-full font-mulish overflow-hidden my-8">
-  <form id="form">
+  <form id="form" action="https://formsubmit.co/gonzalo@pukara.es" method="POST">
     <p class="text-3xl md:text-4xl text-center font-extrabold my-4">CONTACTANOS</p>
 
     <div class="w-full md:w-[900px] mx-auto flex flex-col">
-      <div class="w-full flex flex-col md:flex-row p-2">
+      
+      
+      <div class="data-container">
+
+        <div class="input-form-name" id="grupo__name">
         <label class="w-full md:w-1/2 p-2" for="name">
-          <p class="text-xl md:text-2xl">Nombre*</p>
-          <input type="text" name="name" id="name" class="border w-full p-2 my-2" title="Tu nombre." placeholder="John Doe" />
-        </label>
-        
-        <label class="w-full md:w-1/2 p-2" for="email">
-          <p class="text-xl md:text-2xl">Correo*</p>
-          <input type="email" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." placeholder="johndoe@ejemplo.com" />
+          <p class="text-xl md:text-2xl">Nombre</p>
+          <input type="text" name="name" id="name" class="border w-full p-2 my-2" title="Tu nombre." placeholder="" value=""/>
+          <small class="error"></small>
         </label>
       </div>
+      <br>
+        
+        <div class="input-form-email" id="grupo__email">
+        <label class="w-full md:w-1/2 p-2" for="email">
+          <p class="text-xl md:text-2xl">Correo</p>
+          <input type="text" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." placeholder="" value="" required/>
+          <small class="error"></small>
+        </label>
+      </div>
+      </div>
 
+      <div class="input-form-phone" id="grupo__phone">
+      <label class="w-full md:w-1/2 p-4" for="phone">
+        
+        <p class="text-xl md:text-2xl">Telefono</p> <small> (Opcional) </small>
+        <textarea name="phone" id="name" class="border w-full p-2 my-2" title="Tu telefono." placeholder=""></textarea>
+      </label>
+      
+    </div>
+      <div class="input-form-textarea" id="grupo__textarea">
       <label class="w-full p-4" for="message">
-        <p class="text-xl md:text-2xl">Mensaje*</p>
-        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border" placeholder="Tu mensaje."></textarea>  
+        <p class="text-xl md:text-2xl">Mensaje</p>
+        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border" placeholder="" ></textarea>
+        <small class="error"></small>
       </label>
     </div>
 
-    <button type="button" class="button my-0 md:my-8">ENVIAR</button>
+
+      <div class="input-checkbox">
+        <label for="notificaciones">
+            <input type="checkbox" name="terms" id="notificaciones"> He leído, acepto la política de privacidad y aviso legal.
+        </label><br>
+        <small class="error"></small>
+    </div>
+
+    </div>
+
+    <input type="submit" class="button my-0 md:my-8"></input>
+    <br>
+    <br>
+    <br>
+    <br>
+
   </form>
 </div>
+

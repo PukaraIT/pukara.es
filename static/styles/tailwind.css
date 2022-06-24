@@ -7,7 +7,7 @@
 }
 
 /*
-! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -505,23 +505,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #F3D02B;
 }
 
-.circle {
-  border-top: dashed;
-  display: flex;
-  height: 16rem;
-  width: 16rem;
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  flex-direction: column;
-  place-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  border-width: 4px;
-  border-color: rgb(29 36 38 / var(--tw-border-opacity));
-  --tw-border-opacity: 1;
-  border-top-color: rgb(243 208 43 / var(--tw-border-opacity));
-}
-
 .invisible{
   visibility: hidden;
 }
@@ -575,14 +558,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.75rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mb-16{
-  margin-bottom: 4rem;
-}
-
 .flex{
   display: flex;
 }
@@ -617,15 +592,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-6{
   width: 1.5rem;
-}
-
-.-rotate-45{
-  --tw-rotate: -45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .select-none{
@@ -671,14 +637,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
-.bg-pukara-second{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 36 38 / var(--tw-bg-opacity));
-}
-
 .bg-pukara-video{
   --tw-bg-opacity: 1;
   background-color: rgb(39 38 46 / var(--tw-bg-opacity));
+}
+
+.bg-pukara-second{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 36 38 / var(--tw-bg-opacity));
 }
 
 .bg-hero{
@@ -714,11 +680,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -727,6 +688,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-2{
@@ -777,11 +743,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-xs{
@@ -889,6 +850,69 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 /*#endregion*/
+
+/* Validaciones */
+
+.data-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-form-name{
+  width: 50%;
+}
+
+.input-form-email{
+  width: 48%;
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+  z-index: 100;
+  font-size: 16px;
+  opacity: 0;
+}
+
+/* SI es correcto */
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+  color: green;
+  opacity: 1;
+}
+
+.formulario__grupo-correcto input {
+  border-bottom: 1px solid green;
+}
+
+/*SI es incorrecto */
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+  color: red;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto input {
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 500px){
+  .form-container form{
+    width: 80%;
+  }
+}
+
+@media (min-width: 990px) {
+  .form-container .form-register form{
+    min-width: 450px;
+  }
+
+  .form-container .form-login form{
+    min-width: 400px;
+  }
+}
 
 @media (min-width: 768px){
   .md\:-left-96{

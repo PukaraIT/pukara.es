@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @font-face {
   font-family: 'Eight One';
   src: url("../fonts/eight-one.ttf");
@@ -51,3 +50,69 @@
   background: radial-gradient(#f3d02b, #e38718);
 }
 /*#endregion*/
+
+
+
+/* Validaciones */
+
+.data-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-form-name{
+  width: 50%;
+}
+
+.input-form-email{
+  width: 48%;
+}
+
+
+.formulario__validacion-estado {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+  z-index: 100;
+  font-size: 16px;
+  opacity: 0;
+}
+
+/* SI es correcto */
+.formulario__grupo-correcto .formulario__validacion-estado{
+  color: green;
+opacity: 1;
+}
+
+.formulario__grupo-correcto input {
+  border-bottom: 1px solid green;
+}
+
+/*SI es incorrecto */
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+  color: red;
+opacity: 1;
+}
+
+.formulario__grupo-incorrecto input {
+  border: 1px solid red;
+}
+
+
+@media screen and (max-width: 500px){
+  .form-container form{
+      width: 80%;
+  }
+}
+
+@media (min-width: 990px) {
+  .form-container .form-register form{
+      min-width: 450px;
+  }
+  
+  .form-container .form-login form{
+      min-width: 400px;
+  }
+}
