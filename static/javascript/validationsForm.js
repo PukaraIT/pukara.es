@@ -92,23 +92,23 @@ formulario.addEventListener('submit', (e) => {
   }         
 })
 
-// try{
-//   let result = await axios({
-//       method: 'post',
-//       url: 'https://www.google.com/recaptcha/enterprise.js?render=6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt',
-//       params: {
-//           secret: '6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt',
-//           response: response
-//       }
-//   });
-//   let data = result.data || {};
-//   if(!data.success){
-//       throw({
-//           success: false,
-//           error: 'response not valid'
-//       })
-//   }
-// }catch(err){
-//   console.log(err);
-//   throw err.response ? err.response.data : {success: false, error: 'captcha_error'}
-// }
+try{
+  let result = await axios({
+      method: 'post',
+      url: 'https://www.google.com/recaptcha/enterprise.js?render=6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt',
+      params: {
+          secret: '6LcYe3kgAAAAAG_ef9x4sFhHjlwUdwqO7iK1ljBt',
+          response: response
+      }
+  });
+  let data = result.data || {};
+  if(!data.success){
+      throw({
+          success: false,
+          error: 'response not valid'
+      })
+  }
+}catch(err){
+  console.log(err);
+  throw err.response ? err.response.data : {success: false, error: 'captcha_error'}
+}
