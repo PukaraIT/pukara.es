@@ -6,6 +6,9 @@
   src: url("../fonts/eight-one.ttf");
 }
 
+.smooth-scroll{
+  display: none;
+}
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -750,12 +753,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .font-extrabold{
   font-weight: 800;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .uppercase{
