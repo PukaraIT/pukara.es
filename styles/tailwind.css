@@ -931,11 +931,6 @@ video {
     margin-bottom: 0px;
   }
 
-  .md\:my-16{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
   .md\:my-8{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -974,10 +969,6 @@ video {
     width: auto;
   }
 
-  .md\:w-\[60\%\]{
-    width: 60%;
-  }
-
   .md\:w-\[900px\]{
     width: 900px;
   }
@@ -1014,11 +1005,6 @@ video {
   .md\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .md\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 
   .md\:text-9xl{
