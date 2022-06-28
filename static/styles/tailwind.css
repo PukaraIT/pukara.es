@@ -808,15 +808,6 @@ video {
   font-family: Mulish;
 }
 
-.font-eight-one{
-  font-family: Eight One;
-}
-
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1045,11 +1036,6 @@ video {
   .md\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .md\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
   }
 
   .md\:text-3xl{
