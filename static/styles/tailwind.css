@@ -925,6 +925,10 @@ video {
 
 /*#endregion*/
 
+#derechos-reservados{
+  padding-top: 20px;
+}
+
 @media (min-width: 768px){
   .md\:-left-96{
     left: -24rem;
@@ -1065,4 +1069,3 @@ video {
     color: rgb(243 208 43 / var(--tw-text-opacity));
   }
 }
-
