@@ -11,9 +11,9 @@ module.exports = {
         'eight-one': 'Eight One'
       },
       backgroundImage: {
-        'header': "url('../images/bg-banner.png')",
+        'header': "url('../images/bg-banner-2.jpg')",
         'hero': "url('../images/bg-hero.jpg')",
-        'footer': "url('../images/bg-footer.png')"
+        'footer': "url('../images/bg-footer-2.jpg')"
       },
       colors: {
         pukara: {
