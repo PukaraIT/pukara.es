@@ -553,11 +553,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
-.my-3{
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .flex{
   display: flex;
 }
@@ -611,10 +606,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center{
   justify-content: center;
-}
-
-.justify-items-end{
-  justify-items: end;
 }
 
 .gap-8{
@@ -695,17 +686,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .text-center{
   text-align: center;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .text-justify{
@@ -984,14 +966,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
-  .md\:w-1\/6{
-    width: 16.666667%;
-  }
-
-  .md\:w-2\/6{
-    width: 33.333333%;
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1050,11 +1024,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-base{
