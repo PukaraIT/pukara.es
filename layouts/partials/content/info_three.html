@@ -1,27 +1,62 @@
 <div class="relative w-full font-mulish overflow-hidden my-8">
-  <small id="smooth-scroll"></small>
-  <form id="form">
+  <form id="form" action="https://getform.io/f/8f1a51cc-33d8-4d63-b3d7-14dd95fe572c" method="POST">
+    <small id="smooth-scroll"></small>
     <p class="text-3xl md:text-4xl text-center font-extrabold my-4">CONTACTANOS</p>
 
     <div class="w-full md:w-[900px] mx-auto flex flex-col">
-      <div class="w-full flex flex-col md:flex-row p-2">
+      
+      
+      <div class="data-container">
+
+        <div class="input-form-name" >
         <label class="w-full md:w-1/2 p-2" for="name">
-          <p class="text-xl md:text-2xl">Nombre*</p>
-          <input type="text" name="name" id="name" class="border w-full p-2 my-2" title="Tu nombre." placeholder="John Doe" />
-        </label>
-        
-        <label class="w-full md:w-1/2 p-2" for="email">
-          <p class="text-xl md:text-2xl">Correo*</p>
-          <input type="email" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." placeholder="johndoe@ejemplo.com" />
+          <p class="text-xl md:text-2xl">Nombre</p>
+          <input type="text" name="name" id="name" class="border w-full p-2 my-2" title="Tu nombre." value="">
+          <small class="error"></small>
         </label>
       </div>
+      <br>
+        
+        <div class="input-form-email" >
+        <label class="w-full md:w-1/2 p-2" for="email">
+          <p class="text-xl md:text-2xl">Correo</p>
+          <input type="text" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." value="" />
+          <small class="error"></small>
+        </label>
+      </div>
+      </div>
 
+      <div class="input-form-phone" >
+      <label class="w-full md:w-1/2 p-4" for="phone">
+        
+        <p class="text-xl md:text-2xl">Telefono</p> <small> (Opcional) </small>
+        <textarea name="phone" id="name" class="border w-full p-2 my-2" title="Tu telefono."></textarea>
+      </label>
+      
+    </div>
+      <div class="input-form-textarea">
       <label class="w-full p-4" for="message">
-        <p class="text-xl md:text-2xl">Mensaje*</p>
-        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border" placeholder="Tu mensaje."></textarea>  
+        <p class="text-xl md:text-2xl">Mensaje</p>
+        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border"></textarea>
+        <small class="error"></small>
       </label>
     </div>
 
-    <button type="button" class="button my-0 md:my-8">ENVIAR</button>
+
+      <div class="input-checkbox">
+        <label for="notificaciones">
+            <input type="checkbox" name="terms" id="notificaciones" > He leído, acepto la política de privacidad y aviso legal.
+        </label><br>
+        <small class="error"></small>
+    </div>
+
+    </div>
+    <button class="g-recaptcha" 
+        data-sitekey="6LeXbrIgAAAAAEv6HXO2F46atp5-3HiAGjmd9zTg" 
+        data-callback='onSubmit' 
+        data-action='submit'></button>
+
+    <input type="submit" class="button my-0 md:my-8" name="enviar"></input>
+
   </form>
 </div>

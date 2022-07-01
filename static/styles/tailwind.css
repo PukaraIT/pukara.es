@@ -998,9 +998,11 @@ video {
   font-weight: 800;
 }
 
+
 .font-medium{
   font-weight: 500;
 }
+
 
 .text-white{
   --tw-text-opacity: 1;
@@ -1382,4 +1384,5 @@ video {
     }
   }
 }
+
 
