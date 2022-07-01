@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'header': "url('../images/bg-banner.png')",
-        'hero': "url('../images/bg-hero.png')",
+        'hero': "url('../images/bg-hero.jpg')",
         'footer': "url('../images/bg-footer.png')"
       },
       colors: {
