@@ -821,6 +821,10 @@ video {
   overflow: hidden;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1107,6 +1111,10 @@ video {
 
 /*#endregion*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hover\:bg-gray-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1286,6 +1294,10 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:scroll-auto{
+    scroll-behavior: auto;
   }
 
   .md\:border-0{
