@@ -1,11 +1,3 @@
-let buttons = document.querySelectorAll('a');
-buttons.forEach((button) => {
-  button.addEventListener('click', (e) => {
-    e.preventDefault();
-    let target = e.currentTarget.getAttribute('href');
-    
-    document.querySelector(target).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+function myFunction() {
+  document.documentElement.style.scrollBehavior = "smooth";
+}
