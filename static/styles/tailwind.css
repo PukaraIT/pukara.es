@@ -896,11 +896,11 @@ video {
 }
 
 .bg-header{
-  background-image: url('../images/bg-banner.png');
+  background-image: url('../images/bg-banner-2.jpg');
 }
 
 .bg-footer{
-  background-image: url('../images/bg-footer.png');
+  background-image: url('../images/bg-footer-2.jpg');
 }
 
 .bg-cover{
@@ -1025,11 +1025,9 @@ video {
   font-weight: 800;
 }
 
-
 .font-medium{
   font-weight: 500;
 }
-
 
 .text-white{
   --tw-text-opacity: 1;
