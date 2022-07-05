@@ -20,38 +20,7 @@
   }
 }
 
-/*Slider theme*/
-/*#region*/
-@keyframes fade {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  50% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-.slider {
-  animation: linear fade 5s;
-}
-
-.hide-slider {
-  display: none;
-}
-
-.dots {
-  background: #ffffff;
-  cursor: pointer;
-}
-
-.dots:hover {
-  background: radial-gradient(#f3d02b, #e38718);
-}
-
-.dots-active {
-  background: radial-gradient(#f3d02b, #e38718);
-}
-/*#endregion*/
-
 html {
   scroll-behavior: smooth;
 }
+

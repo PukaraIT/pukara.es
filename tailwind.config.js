@@ -22,7 +22,7 @@ module.exports = {
           second: '#1D2426',
           video: '#27262E'
         }
-      }
+      },
     },
   },
   plugins: [],
