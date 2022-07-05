@@ -1,7 +1,6 @@
 const formulario = document.querySelector('#form'); 
 const inputs = document.querySelectorAll('#form input'); 
 
-
 formulario.addEventListener('submit', (e) => {
   e.preventDefault()
   const elements = e.target.elements;
@@ -9,10 +8,8 @@ formulario.addEventListener('submit', (e) => {
 
   for (let i = 0; i < elements.length -3; i++) {
   if (elements[i].value === ""){
-    error = true
-    
+    error = true   
   }
-  
 }
 
   const terminos = document.getElementById('notificaciones');
