@@ -1,39 +1,39 @@
-<div class="my-8">
+<div class="relative w-full font-mulish overflow-hidden my-8">
   <form id="form" action="https://api.getform.io/v1/forms/8f1a51cc-33d8-4d63-b3d7-14dd95fe572c?token=FISy4ax0qT3BIkrWpbtK16sXIq8pdcUfpQyCXOhoHA8zUNKqTZf7At3MwTLO" method="POST">
     <small id="contacto"></small>
     <p class="text-center font-extrabold text-2xl md:text-3xl my-2">CONTÁCTANOS</p>
 
-    <div class="w-full md:w-[900px] mx-auto flex flex-col">
-      <div>
+    <div class="w-full md:w-[900px] mx-auto flex flex-col mr-auto ml-auto p-4">
+      <div class="data-container">
 
         <div class="input-form-name" >
-        <label class="md:w-1/2 p-2" for="name">
+        <label class="w-full md:w-1/2 p-2" for="name">
           <p class="text-xl md:text-2xl">Nombre:</p>
-          <input type="text" name="name" id="name" class="border w-full p-2 my-2 px-4 shadow-2xl" title="Tu nombre." value="">
+          <input type="text" name="name" id="name" class="border w-full p-2 my-2" title="Tu nombre." value="">
           <small class="error"></small>
         </label>
       </div>
       
         <div class="input-form-email" >
-        <label class="md:w-1/2 p-2" for="email">
+        <label class="w-full md:w-1/2 p-2" for="email">
           <p class="text-xl md:text-2xl">Correo:</p>
-          <input type="text" name="email" id="email" class="border w-full p-2 my-2 shadow-2xl" title="Tu correo." value="" />
+          <input type="text" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." value="" />
           <small class="error"></small>
         </label>
       </div>
       </div>
 
       <div class="input-form-phone" >
-      <label class="md:w-1/2 p-4" for="phone">
+      <label class="w-full md:w-1/2 p-4" for="phone">
         <p class="text-xl md:text-2xl">Teléfono: <small> (Opcional) </small></p> 
-        <textarea name="phone" id="name" class="border w-full p-2 my-2 shadow-2xl" title="Tu telefono."></textarea>
+        <textarea name="phone" id="name" class="resize-none border w-full p-2 my-2" title="Tu telefono."></textarea>
       </label>
       
     </div>
       <div class="input-form-textarea">
-      <label class="p-4" for="message">
+      <label class="w-full p-4" for="message">
         <p class="text-xl md:text-2xl">Mensaje:</p>
-        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border shadow-2xl"></textarea>
+        <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border"></textarea>
         <small class="error"></small>
       </label>
     </div>
@@ -55,4 +55,4 @@
     <input type="submit" class="button my-0 md:my-8" name="enviar"></input>
 
   </form>
-</div>
+</div>  
