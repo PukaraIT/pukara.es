@@ -1,4 +1,3 @@
-
 const panels = document.querySelectorAll('.slider');
 
 let interval;
@@ -24,7 +23,6 @@ const panelShow = (event) => {
 
   i = 0;
 }
-
 
 interval = setInterval(panelShow, 5000);
 
