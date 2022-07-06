@@ -4,8 +4,6 @@
     <p class="text-center font-extrabold text-2xl md:text-3xl my-2">CONTÁCTANOS</p>
 
     <div class="w-full md:w-[900px] mx-auto flex flex-col">
-      
-      
       <div class="data-container">
 
         <div class="input-form-name" >
@@ -16,7 +14,6 @@
         </label>
       </div>
       
-        
         <div class="input-form-email" >
         <label class="w-full md:w-1/2 p-2" for="email">
           <p class="text-xl md:text-2xl">Correo:</p>
@@ -28,7 +25,6 @@
 
       <div class="input-form-phone" >
       <label class="w-full md:w-1/2 p-4" for="phone">
-        
         <p class="text-xl md:text-2xl">Teléfono: <small> (Opcional) </small></p> 
         <textarea name="phone" id="name" class="border w-full p-2 my-2" title="Tu telefono."></textarea>
       </label>
@@ -42,10 +38,9 @@
       </label>
     </div>
 
-
       <div class="input-checkbox">
         <label for="notificaciones">
-            <input type="checkbox" name="terms" id="notificaciones" > He leído, acepto la política de privacidad y aviso legal.
+            <input type="checkbox" name="terms" id="notificaciones"> He leído, acepto la política de privacidad y aviso legal.
         </label>
         <small class="error"></small>
     </div>
@@ -54,7 +49,8 @@
     <button class="g-recaptcha" 
         data-sitekey="6LeXbrIgAAAAAEv6HXO2F46atp5-3HiAGjmd9zTg" 
         data-callback='onSubmit' 
-        data-action='submit'></button>
+        data-action='submit'>
+    </button>
 
     <input type="submit" class="button my-0 md:my-8" name="enviar"></input>
 

@@ -743,10 +743,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -1051,4 +1047,3 @@ html {
     color: rgb(243 208 43 / var(--tw-text-opacity));
   }
 }
-
