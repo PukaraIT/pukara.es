@@ -755,28 +755,12 @@ video {
   border-width: 1px;
 }
 
-.border-b{
-  border-bottom-width: 1px;
-}
-
-.border-t-\[3px\]{
-  border-top-width: 3px;
-}
-
-.border-t-\[2px\]{
-  border-top-width: 2px;
-}
-
 .border-t-\[1px\]{
   border-top-width: 1px;
 }
 
 .border-b-\[1px\]{
   border-bottom-width: 1px;
-}
-
-.border-b-\[0px\]{
-  border-bottom-width: 0px;
 }
 
 .border-gray-200{
@@ -1028,14 +1012,6 @@ html {
 
   .md\:border-0{
     border-width: 0px;
-  }
-
-  .md\:border-b-0{
-    border-bottom-width: 0px;
-  }
-
-  .md\:border-t-\[3px\]{
-    border-top-width: 3px;
   }
 
   .md\:border-t-\[0px\]{
