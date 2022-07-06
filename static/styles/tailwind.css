@@ -652,20 +652,20 @@ video {
   margin-bottom: 3rem;
 }
 
-.ml-3{
-  margin-left: 0.75rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
-}
-
 .mr-auto{
   margin-right: auto;
 }
 
 .ml-auto{
   margin-left: auto;
+}
+
+.ml-3{
+  margin-left: 0.75rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .block{
@@ -684,10 +684,6 @@ video {
   display: none;
 }
 
-.h-\[20px\]{
-  height: 20px;
-}
-
 .h-52{
   height: 13rem;
 }
@@ -696,16 +692,8 @@ video {
   height: 1.5rem;
 }
 
-.h-11{
-  height: 2.75rem;
-}
-
 .max-h-52{
   max-height: 13rem;
-}
-
-.max-h-11{
-  max-height: 2.75rem;
 }
 
 .min-h-full{
@@ -733,10 +721,6 @@ video {
 
 .resize-none{
   resize: none;
-}
-
-.resize{
-  resize: both;
 }
 
 .flex-col{
@@ -902,12 +886,6 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.shadow-2xl{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .transition{
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1006,16 +984,12 @@ html {
     width: 15rem;
   }
 
-  .md\:w-\[900\]{
-    width: 900;
+  .md\:w-\[900px\]{
+    width: 900px;
   }
 
   .md\:w-auto{
     width: auto;
-  }
-
-  .md\:w-\[900px\]{
-    width: 900px;
   }
 
   .md\:flex-row{
