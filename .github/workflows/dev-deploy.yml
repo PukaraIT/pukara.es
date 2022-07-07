@@ -1,0 +1,28 @@
+name: pukara develop deploy
+
+on:
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@main
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Upload files on server.
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ftp.dev.pukara.es
+          username: admin@dev.pukara.es
+          password: g_2A%41b#4@G
+          local-dir: public/
+          server-dir: ./dev.pukara.es/public_html/
