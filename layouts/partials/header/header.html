@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,6 +43,12 @@
             <li class="border-t-[1px] md:border-t-[0px] border-b-[1px] md:border-b-[0px]">
               <a href="#contacto" class=" block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">Contacto</a>
             </li>
+            {{ range .Site.Menus.main }}
+            <li class="border-t-[1px] md:border-t-[0px] border-b-[1px] md:border-b-[0px]"></li>>
+              <a href="{{ .URL | relLangURL }}" class=" block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ partial "language-switcher.html" . }}
           </ul>
         </div>
       </div>

@@ -1,22 +1,27 @@
-baseURL = "https://pukaraes.github.io"
-DefaultContentLanguage = "es"
+baseURL = "https://www.pukara.es/"
+defaultContentLanguage = "es"
 title = "Pukara"
 
-[Languages.es]
-languageName = "Es"
-weight = 1
-title = "Pukara Es"
-contentDir = "content/es"
+[languages]
+    [languages.es]
+        languageName = "Es"
+        baseURL = "https://www.pukara.es/es/"
+        weight = 1
+        title = "Pukara Es"
+        contentDir = "content/espanol"
 
-[Languages.en]
-languageName = "En"
-weight = 2
-title = "Pukara En"
-contentDir = "content/en"
 
-[Languages.br]
-languageName = "Br"
-weight = 3
-title = "Pukara En"
-contentDir = "content/br"
+    [languages.en]
+        languageName = "En"
+        baseURL = "https://www.pukara.es/en/"
+        weight = 2
+        title = "Pukara En"
+        contentDir = "content/english"
+
+    [languages.pt-br]
+        languageName = "Pt-Br"
+        baseURL = "https://www.pukara.es/pt-br/"
+        weight = 3
+        title = "Pukara Pt-Br"
+        contentDir = "content/portugues"
 
