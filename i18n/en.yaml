@@ -1,0 +1,44 @@
+- id: Servicios
+  translation: "Services"
+- id: Contacto
+  translation: "Contact"
+- id: Copy
+  translation: "All rights reserved"
+- id: CONTÁCTANOS
+  translation: "CONTACT US"
+- id: Nombre
+  translation: "Name"
+- id: Correo
+  translation: "Mail"
+- id: Teléfono
+  translation: "Phone number"
+- id: Opcional
+  translation: "Optional"
+- id: Mensaje
+  translation: "Message"
+- id: Warning
+  translation: "I have read, I accept the privacy policy and legal notice."
+- id: NOSOTROS
+  translation: "ABOUT US"
+- id: NOSOTROS1
+  translation: "We are technological innovation and digital transformation consultancy that helps organizations and individuals in the production of quality software in an efficient, sustainable, and fun way."
+- id: NOSOTROS2
+  translation: "We want to be part of the technological construction of the ideas of the future that also contribute to the human and material development of the people involved in the process."
+- id: Desarrollo de Aplicaciones Web
+  translation: "Web applications development"
+- id: Desarrollo de Aplicaciones Web1
+  translation: "We analyze your objectives, divide them into functional deliverables and configure a team that will iterate until reaching your technological goal or that of your organization."
+- id: Desarrollo de Aplicaciones Web2
+  translation: "With a fixed or difficulty cost scheme and without the management burden, this is a good option to achieve a minimum viable product."
+- id: Equipo Ágil Dedicado
+  translation: "Dedicated Agile Team"
+- id: Equipo Ágil Dedicado1
+  translation: "We put at your disposal an agile, multidisciplinary, conscientious team with a heart that will work to cover all the requirements of your project."
+- id: Equipo Ágil Dedicado2
+  translation: "It is a service oriented to organizations with a product and an established technical team but that require an agile support."
+- id: Presencia Online y E-commerce
+  translation: "Online presence and E-commerce"
+- id: Presencia Online y E-commerce1
+  translation: "We serve the needs of visibility and ethical and organic positioning of your business on Web2."
+- id: Presencia Online y E-commerce2
+  translation: "We build your self-managed digital face with relevant information of your product and/or service offering for your future customers."

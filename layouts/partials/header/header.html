@@ -38,10 +38,10 @@
         <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
             <li class="border-t-[1px] md:border-t-[0px]"> 
-              <a href="#servicios" class="block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">Servicios</a>
+              <a href="#servicios" class="block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">{{ i18n "Servicios" }}</a>
             </li>
             <li class="border-t-[1px] md:border-t-[0px] border-b-[1px] md:border-b-[0px]">
-              <a href="#contacto" class=" block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">Contacto</a>
+              <a href="#contacto" class=" block py-2 pr-4 pl-3 text-white md:border-0 transition delay-100 md:hover:text-pukara-main">{{ i18n "Contacto" }}</a>
             </li>
             {{ range .Site.Menus.main }}
             <li class="border-t-[1px] md:border-t-[0px] border-b-[1px] md:border-b-[0px]"></li>>
@@ -53,5 +53,3 @@
         </div>
       </div>
     </nav>
-
-    

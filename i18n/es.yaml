@@ -1,0 +1,44 @@
+- id: Servicios
+  translation: "Servicios"
+- id: Contacto
+  translation: "Contacto"
+- id: Copy
+  translation: "Todos los derechos reservados"
+- id: CONTÁCTANOS
+  translation: "CONTÁCTANOS"
+- id: Nombre
+  translation: "Nombre"
+- id: Correo
+  translation: "Correo"
+- id: Teléfono
+  translation: "Teléfono"
+- id: Opcional
+  translation: "Opcional"
+- id: Mensaje
+  translation: "Mensaje"
+- id: Warning
+  translation: "He leído, acepto la política de privacidad y aviso legal."
+- id: NOSOTROS
+  translation: "NOSOTROS"
+- id: NOSOTROS1
+  translation: "Somos una consultora de innovación tecnológica y transformación digital que ayuda a organizaciones y particulares en la producción de software de calidad de forma eficiente, sostenible y divertida."
+- id: NOSOTROS2
+  translation: "Queremos formar parte de la construcción tecnológica de las ideas del futuro que también contribuyan al desarrollo humano y material de las personas involucradas en el proceso."
+- id: Desarrollo de Aplicaciones Web
+  translation: "Desarrollo de Aplicaciones Web"
+- id: Desarrollo de Aplicaciones Web1
+  translation: "Analizamos tus objetivos, los dividimos en entregables funcionales y configuramos un equipo que iterará hasta alcanzar tu meta tecnológica o la de tu organización."
+- id: Desarrollo de Aplicaciones Web2
+  translation: "Con un esquema de costes fijo o por dificultad y sin la carga de gestión, esta es una buena opción para alcanzar un mínimo producto viable."
+- id: Equipo Ágil Dedicado
+  translation: "Equipo Ágil Dedicado"
+- id: Equipo Ágil Dedicado1
+  translation: "Ponemos a tu disposición un equipo ágil, multidisciplinar, consciente y con corazón  que trabajará para cubrir todos los requerimientos de tu proyecto."
+- id: Equipo Ágil Dedicado2
+  translation: "Es un servicio orientado a organizaciones con un producto y un equipo técnico establecido pero que requieren de un espaldarazo ágil."
+- id: Presencia Online y E-commerce
+  translation: "Presencia Online y E-commerce"
+- id: Presencia Online y E-commerce1
+  translation: "Atendemos las necesidades de visibilidad y posicionamiento ético y orgánico de tu negocio en la Web2."
+- id: Presencia Online y E-commerce2
+  translation: "Construímos tu fachada digital autoadministrable con la información relevante de tu oferta de productos y/o servicios para tus futuros clientes."
