@@ -1,6 +1,7 @@
 {{ if .IsTranslated }}
     {{ i18n "translations" }}
     {{ range .Translations }}
-    <li><a class="lang-switch block py-2 pr-4 text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    <li><a class="lang-switch block py-2 pr-4 text-white" href="{{ .Permalink }}"><img src="images/{{.Language.LanguageName}}.png"></a></li>
+    
     {{ end }}
 {{ end }}

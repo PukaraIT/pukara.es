@@ -19,7 +19,7 @@ title = "Pukara"
         contentDir = "content/english"
 
     [languages.pt-br]
-        languageName = "Pt-Br"
+        languageName = "Pt-br"
         baseURL = "https://pukaraes.github.io/pt-br/"
         weight = 3
         title = "Pukara Pt-Br"
