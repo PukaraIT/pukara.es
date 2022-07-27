@@ -1,7 +1,18 @@
-{{ if .IsTranslated }}
-    {{ i18n "translations" }}
-    {{ range .Translations }}
-    <li><a class="lang-switch block py-2 pr-4 pl-3" href="{{ .Permalink }}"><img src="images/{{.Language.LanguageName}}.png" width="18"height="16"></a></li>
-    
-    {{ end }}
+{{ if .Site.IsMultiLingual }}
+    {{ range .Site.Languages }}
+    {{ if eq . $.Site.Language }}
+    <li id="lang-dropdown" class="dropdown">
+      <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="fa fa-globe" aria-hidden="true"></span></a>
+      {{ end }}
+      {{ end }}
+      <ul class="dropdown-menu">
+        {{ range $.Translations }}
+        <li><a class="pr-4 text-white" href="{{ .Permalink }}">
+            <img  align="left" src="images/{{.Language.LanguageName}}.png" width="18"height="16">
+            {{.Language.LanguageName}}</a>
+            {{ end }}
+        </li>
+      </ul>
+      </li>
 {{ end }}
