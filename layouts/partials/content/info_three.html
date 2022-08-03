@@ -1,14 +1,14 @@
 <div class="relative w-full font-mulish overflow-hidden my-8">
   <form id="form" action="https://getform.io/f/8f1a51cc-33d8-4d63-b3d7-14dd95fe572c" method="POST">
     <small id="contacto"></small>
-    <p class="text-center font-extrabold text-2xl md:text-3xl my-2">CONTÁCTANOS</p>
+    <p class="text-center font-extrabold text-2xl md:text-3xl my-2">{{ i18n "CONTÁCTANOS" }}</p>
 
     <div class="w-full md:w-[900px] mx-auto flex flex-col p-4">
       <div class="data-container">
 
         <div class="input-form-name" >
         <label class="w-full md:w-1/2 p-2" for="name">
-          <p class="text-xl md:text-2xl">Nombre:</p>
+          <p class="text-xl md:text-2xl">{{ i18n "Nombre"}}:</p>
           <input type="text" name="nombre" id="name" class="border w-full p-2 my-2" title="Tu nombre." value="">
           <small class="error"></small>
         </label>
@@ -16,7 +16,7 @@
       
         <div class="input-form-email" >
         <label class="w-full md:w-1/2 p-2" for="email">
-          <p class="text-xl md:text-2xl">Correo:</p>
+          <p class="text-xl md:text-2xl">{{ i18n "Correo"}}:</p>
           <input type="text" name="email" id="email" class="border w-full p-2 my-2" title="Tu correo." value="" />
           <small class="error"></small>
         </label>
@@ -25,14 +25,14 @@
 
       <div class="input-form-phone" >
       <label class="w-full md:w-1/2 p-4" for="phone">
-        <p class="text-xl md:text-2xl">Teléfono: <small> (Opcional) </small></p> 
+        <p class="text-xl md:text-2xl">{{ i18n "Teléfono"}}: <small> ({{ i18n "Opcional"}}) </small></p> 
         <textarea name="phone" id="name" class="resize-none border w-full p-2 my-2" title="Tu telefono."></textarea>
       </label>
       
     </div>
       <div class="input-form-textarea">
       <label class="w-full p-4" for="message">
-        <p class="text-xl md:text-2xl">Mensaje:</p>
+        <p class="text-xl md:text-2xl">{{ i18n "Mensaje"}}:</p>
         <textarea name="message" id="message" class="w-full min-h-full max-h-52 h-52 p-2 my-2 border"></textarea>
         <small class="error"></small>
       </label>
@@ -40,7 +40,7 @@
 
       <div class="input-checkbox">
         <label for="notificaciones">
-            <input type="checkbox" name="terms" id="notificaciones"> He leído, acepto la política de privacidad y aviso legal.
+            <input type="checkbox" name="terms" id="notificaciones"> {{ i18n "Warning"}}
         </label>
         <small class="error"></small>
     </div>
