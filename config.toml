@@ -4,19 +4,19 @@ DefaultContentLanguageInSubdir = true
 title = "Pukara"
 [languages]
     [languages.es]
-        languageName = "ES"
+        languageName = "es"
         baseURL = "https://pukaraes.github.io"
         title = "Pukara ES"
         weight = 1
         contentDir = "content/es"
     [languages.en]
-        languageName = "EN"
+        languageName = "en"
         baseURL = "https://pukaraes.github.io/en"
         weight = 2
         title = "Pukara EN"
         contentDir = "content/en"
     [languages.pt-br]
-        languageName = "BR"
+        languageName = "br"
         baseURL = "https://pukaraes.github.io/br"
         weight = 3
         title = "Pukara BR"
