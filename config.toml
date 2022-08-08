@@ -5,10 +5,10 @@ title = "Pukara"
 [languages]
     [languages.es]
         languageName = "Spanish"
-        baseURL = "https://pukara.es/es"
+        baseURL = "https://pukara.es/"
         title = "Pukara ES"
         weight = 1
-        contentDir = "content/es"
+        contentDir = "content/"
     [languages.en]
         languageName = "English"
         baseURL = "https://pukara.es/en"
