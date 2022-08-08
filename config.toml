@@ -1,12 +1,11 @@
 baseURL = "https://pukaraes.github.io"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
-canonifyURLs = true
 title = "Pukara"
 [languages]
     [languages.es]
         languageName = "Spanish"
-        baseURL = "https://pukara.es/"
+        baseURL = "https://pukara.es/es"
         title = "Pukara ES"
         weight = 1
         contentDir = "content/es"
