@@ -1,6 +1,5 @@
 baseURL = "https://pukaraes.github.io"
 DefaultContentLanguage = "es"
-DefaultContentLanguageInSubdir = true
 title = "Pukara"
 [languages]
     [languages.es]
