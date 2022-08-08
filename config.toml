@@ -1,4 +1,5 @@
 baseURL = "https://pukaraes.github.io/pukaraes/"
+languageCode = "es"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
 title = "Pukara"
@@ -7,18 +8,16 @@ title = "Pukara"
         languageName = "Spanish"
         baseURL = "https://pukara.es/"
         title = "Pukara ES"
-        weight = 0
-        contentDir = "content/"
+        weight = 1
+		publishDir = "public/"
     [languages.en]
         languageName = "English"
         baseURL = "https://pukara.es/en"
         weight = 2
         title = "Pukara EN"
-        contentDir = "content/en"
-    [languages.pt-br]
+    [languages.br]
         languageName = "Portuguese"
         baseURL = "https://pukara.es/br"
         weight = 3
         title = "Pukara BR"
-        contentDir = "content/br"
 
