@@ -11,7 +11,7 @@
       <ul class="dropdown-menu" aria-labelledby="lang-dropdown">
         {{ range $.Translations }}
         <li><a class="pr-4 text-white flex items-center" href="{{ .Permalink }}">
-            <img align="left" src="images/{{.Language.LanguageName}}.png" width="18"height="16">
+		    <img align="left" src="{{ .Site.BaseURL }}/images/{{.Language.LanguageName}}.png" width="18"height="16">
             {{.Language.LanguageName}}</a>
             {{ end }}
         </li>
